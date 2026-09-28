@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(158, 175, 173);
+     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.header-all{
+    background-color: white;
+    margin: 2em;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+.header-first{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px pink;
+    border-radius: 30px;
+    width: 90px;
+    height: 20px;
+    background-color: pink;
+}
+.CONTENT{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20em 0 20em;
+}
+.content p{
+    font-size: 5px;
+}
