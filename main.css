@@ -1,70 +1,28 @@
-body{
-    background-color: rgb(201, 199, 199);
+* {
+  box-sizing: border-box;
 }
-.header-page{
-    display: flex;
-    margin: 20px;
-    gap: 15px;
-}
-.icon-header{
-    display: flex;
-    gap: 5px;
-}
-.section-conteant{
-    display: grid;
-    grid-template-columns: repeat(2 , 1fr);
-    height: auto;
-    margin: 50px 50px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 15px;
-    padding: 20px;
-}
-.section-imgs{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-    gap: 10px;
-    position: relative;
 
+html {
+  scroll-behavior: smooth;
 }
-.section-header{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+
+body {
+  margin: 0;
+  min-height: 100vh;
 }
-.section-header img{
-    overflow: hidden;
-    width: 50px;
-    border-radius: 10px;
-    object-fit: cover;
-    display: block;
-    transition: filter 0.3s ease;
+
+img {
+  display: block;
+  max-width: 100%;
 }
-.section-header img:hover{
-    filter: brightness(0.7);
-    cursor: pointer;
-    background-color: rgba(0, 0, 0, 0.271);
+
+button,
+a {
+  transition: all 0.2s ease;
 }
-.section-img{
-    display: flex;
-    width: 450px;
-}
-.section-img img{
-    overflow: hidden;
-    object-fit: cover;
-    border-radius: 20px;
-}
-.section-content{
-    width:750px ;
-    background-color: rgb(255, 255, 255);
-    border-radius: 15px;
-    border: 1px solid rgba(128, 128, 128, 0.444);
-}
-.sales{
-    background-color: red;
-    max-width: 50px;
-    margin: 10px 20px;
-    font: small i;
+
+@media (max-width: 640px) {
+  nav {
+    gap: 0.4rem 0.75rem;
+  }
 }
